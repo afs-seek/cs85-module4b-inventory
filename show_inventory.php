@@ -52,3 +52,15 @@ try {
     </tr>
   <?php endforeach; ?>
 </table>
+
+/*
+Why you chose your items.
+I chose items I have and use. I tried to make selections that were somewhat diverse.
+
+
+How this could scale to real world inventory systems.
+It could scale by adding categories that lend themselves to scaling. For example, a barcode system, which a lot of stores require, can help with managing and tracking large amounts of inventory. 
+
+How using PDO protects from SQL injection.
+In the code provided for this assignment, there is no SQL injection because there's no user input. SQL injection occurs when a hacker undermines a website by typing malicious input into user fields. The database accepts the information without checking it. PDO allows PHP to communication with the database. It forces the database to interpret commands. 
+*/
